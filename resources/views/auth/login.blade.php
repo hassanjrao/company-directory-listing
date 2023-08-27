@@ -23,7 +23,7 @@
                         </div>
                         <div class="block-content">
                             <div class="p-sm-3 px-lg-4 px-xxl-5 py-lg-5">
-                                <h1 class="h2 mb-4"><img src="{{asset("media/logos/Full-Logo-Black.png")}}" class="img-fluid" alt="">Logo</h1>
+                                <h1 class="h2 mb-4"><img src="{{asset("media/logos/Full-Logo-Black.png")}}" class="img-fluid" alt="">{{ config('app.name') }}</h1>
                                 <p class="fw-medium text-muted">
                                     Welcome, please login.
                                 </p>
