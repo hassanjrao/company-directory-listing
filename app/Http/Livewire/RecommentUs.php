@@ -13,9 +13,9 @@ class RecommentUs extends Component
     public $successMessage;
 
     protected $rules = [
-        'name' => 'required|min:6',
+        'name' => 'required',
         'email' => 'required|email',
-        'message' => 'required|min:10',
+        'message' => 'required',
     ];
 
     public function submit(){
