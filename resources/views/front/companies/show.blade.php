@@ -70,7 +70,7 @@
                             </ul>
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane fade active show" id="one">
-                                    {{ $company->description }}
+                                    {!! $company->description !!}
                                 </div>
                             </div>
                         </div>

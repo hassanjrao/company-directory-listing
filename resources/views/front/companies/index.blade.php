@@ -6,7 +6,7 @@
         data-bg-image="{{ asset('front-assets/img/figure/site-main-figure1.jpg') }}">
         <div class="container">
             <div class="main-banner-box-layout1">
-                <h1 class="item-title">Search For Comapanies</h1>
+                <h1 class="item-title">Search For Everything</h1>
 
                 <form id="category-search-form" class="category-search-form" action="{{ route("companies.index") }}">
                     <ul class="form-items d-flex justify-content-center">

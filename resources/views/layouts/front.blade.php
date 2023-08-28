@@ -39,6 +39,9 @@
     <!-- Modernizr Js -->
     <script src="{{ asset('front-assets/js/modernizr-3.6.0.min.js') }}"></script>
 
+    <script> async src="https://www.googletagmanager.com/gtag/js?id=G-YY4JGP7CDY"]</script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-YY4JGP7CDY'); </script>
+
 
     @livewireStyles
 </head>

@@ -43,7 +43,11 @@ class LoginController extends Controller
      {
          if (auth()->user()->hasRole('admin')) {
              return '/admin';
-         } else {
+         }
+         else if(auth()->user()->hasRole('moderator')){
+                return '/admin/companies';
+         }
+         else {
              // unauthorized user
              auth()->logout();
 
