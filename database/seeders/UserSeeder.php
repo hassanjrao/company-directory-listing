@@ -25,7 +25,7 @@ class UserSeeder extends Seeder
 
         $user->assignRole("admin");
 
-// 
+
 
         $user = User::firstOrCreate([
             "email" => "moderator@m.com"
