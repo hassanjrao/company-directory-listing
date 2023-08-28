@@ -74,9 +74,14 @@
                     <div class="row">
                         <div class="col-lg-2 col-12">
                             <div class="site-logo">
-                                <a href="{{ route("home") }}" class="main-logo"><img style="width: 70px" src="{{  asset('media/logos/logo.png')}}" alt="Site Logo"></a>
-                                <a href="{{ route("home") }}" class="sticky-logo"><img style="width: 70px" src="{{  asset('media/logos/logo.png')}}"
-                                        alt="Site Logo"></a>
+                                <a href="{{ route("home") }}" class="main-logo" style="text-decoration: none; color:white">
+                                    <img style="width: 70px" src="{{  asset('media/logos/logo.png')}}" alt="Site Logo">
+                                    {{ config("app.name") }}</a>
+                                <a href="{{ route("home") }}" class="sticky-logo" style="text-decoration: none;"><img style="width: 70px" src="{{  asset('media/logos/logo.png')}}"
+                                        alt="Site Logo">
+                                        {{ config("app.name") }}
+                                    </a>
+
                             </div>
                         </div>
                         <div class="col-lg-7 col-12 possition-static">
