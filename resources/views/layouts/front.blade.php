@@ -2,6 +2,20 @@
 <html class="no-js" lang="">
 
 <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5N4BSCRPL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-J5N4BSCRPL');
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ config('app.name') }}</title>
@@ -42,18 +56,7 @@
     {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-YY4JGP7CDY"></script>
     <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-YY4JGP7CDY'); </script> --}}
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5N4BSCRPL"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-J5N4BSCRPL');
-    </script>
 
     @livewireStyles
 </head>
